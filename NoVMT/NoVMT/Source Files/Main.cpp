@@ -65,7 +65,7 @@ int main()
     // Or in a thread / loop constantly comparing the oldSwapTable with this.
     static const auto newSwapTable = swapTable[0];
 
-    // Print out are addresses and compare them.
+    // Print out our addresses and compare them.
     std::cout << "[+] Original: 0x" << std::hex << oldSwapTable << std::endl;
     std::cout << "[+] New: 0x" << std::hex << newSwapTable << std::endl;
 
