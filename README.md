@@ -1,6 +1,5 @@
 # NoVMT
 Detect Virtual Table address swapping.
 
-This is a simple project which detects any Virtual Method Table (VMT) pointer swapping. This is typically used to intercept functions and hook them.
-
-This is very similiar to what Valve Anti-Cheat does.
+## About
+This is a simple project which detects any Virtual Method Table (VMT) pointer swapping. VMT pointer swapping is typically done to hook virtual functions (or intercept them) to have them execute the code you'd like.
